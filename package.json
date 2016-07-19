@@ -1,0 +1,34 @@
+{
+  "name": "preact-compat-hmr",
+  "version": "1.0.0",
+  "description": "Debugging HMR with preact and preact-compat.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./devServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrlplusb/preact-compat-hmr.git"
+  },
+  "author": "Sean Matheson <sean@ctrlplusb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctrlplusb/preact-compat-hmr/issues"
+  },
+  "homepage": "https://github.com/ctrlplusb/preact-compat-hmr#readme",
+  "devDependencies": {
+    "babel-core": "6.10.4",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015-webpack": "6.4.1",
+    "babel-preset-react": "6.11.1",
+    "express": "4.14.0",
+    "path": "0.12.7",
+    "webpack": "2.1.0-beta.19",
+    "webpack-dev-middleware": "1.6.1",
+    "webpack-hot-middleware": "2.12.1"
+  },
+  "dependencies": {
+    "preact": "5.4.0",
+    "preact-compat": "2.0.0"
+  }
+}
