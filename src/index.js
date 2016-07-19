@@ -10,8 +10,10 @@ function renderApp() {
 }
 
 // Set up HMR re-rendering.
-module.hot.accept();
-module.hot.accept('./App.js', renderApp);
+if (module.hot) {
+  module.hot.accept();
+  module.hot.accept('./App.js', renderApp);
+}
 
 console.log('FOO');
 
