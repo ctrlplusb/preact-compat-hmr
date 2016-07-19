@@ -15,7 +15,5 @@ if (module.hot) {
   module.hot.accept('./App.js', renderApp);
 }
 
-console.log('FOO');
-
 // Initial render.
 renderApp();
