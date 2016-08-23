@@ -18,4 +18,4 @@ const webpackDevMiddleware = createWebpackMiddleware(compiler, {
 });
 app.use(webpackDevMiddleware);
 app.use(createWebpackHotMiddleware(compiler));
-app.listen(8001);
+app.listen(8001, () => console.log('App listening on http://localhost:8001'));
